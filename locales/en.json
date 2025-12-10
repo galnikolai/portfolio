@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "personalProjects": "Personal Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Nikolai Galitskii",
+    "title": "Frontend developer with 6+ years of experience",
+    "description": "Specializing in React/TypeScript, interface architecture, performance optimization, and AI integrations. Experienced in e-commerce, EdTech, fintech, and high-load systems.",
+    "projectsButton": "My Projects",
+    "contactButton": "Get in Touch"
+  },
+  "resume": {
+    "downloadRu": "Download Resume (RU)",
+    "downloadEn": "Download Resume (EN)"
+  },
+  "about": {
+    "title": "About Me",
+    "description1": "Frontend developer with 6+ years of experience, specializing in React/TypeScript, interface architecture, performance optimization, and AI integrations. Experienced in e-commerce, EdTech, fintech, and high-load systems.",
+    "description2": "Strengths: designing scalable solutions, refactoring, improving developer experience (DX), accelerating development with AI, and working in Agile teams.",
+    "description3": "Constantly learning new technologies and applying best practices to create solutions that are not only functional but also bring real value to users.",
+    "skillsTitle": "Technical Skills"
+  },
+  "experience": {
+    "title": "Experience",
+    "achievements": "Achievements:",
+    "technologies": "Technologies:"
+  },
+  "projects": {
+    "title": "Projects",
+    "visitSite": "Visit Site"
+  },
+  "personalProjects": {
+    "title": "Personal Projects",
+    "subtitle": "My personal projects and open-source contributions",
+    "demo": "Demo",
+    "items": {
+      "portfolio": {
+        "title": "Personal Portfolio",
+        "description": "Modern and optimized portfolio website built with Next.js, React, TypeScript, and Tailwind CSS. Features include dark mode, multilingual support (RU/EN), responsive design, and SEO optimization."
+      },
+      "pexeso": {
+        "title": "Pexeso",
+        "description": "Classic memory game where you need to find pairs of matching cards. Built with React and TypeScript, featuring an intuitive interface and smooth animations."
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Let's work together!",
+    "description": "If you have a project or idea you'd like to bring to life, I'd be happy to help. Contact me through the form or social networks.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send Message",
+    "success": "Thank you for your message! I'll get back to you soon."
+  },
+  "experienceItems": {
+    "markeaze": {
+      "position": "Senior Frontend Developer",
+      "company": "Markeaze",
+      "period": "03/2022 – 10/2025",
+      "description": "Product platform for email marketing and visual email template builder. Responsible for email editor development, architectural decisions, AI features, and UI/UX improvements.",
+      "achievements": [
+        "Rebuilt the email builder using Web Components, achieving 100% performance stability",
+        "Fine-tuned a Mistral AI model and integrated it for template generation, reducing email creation time by 60-70%",
+        "Increased reliability by covering 80% of the codebase with automated Jest tests",
+        "Developed interactive React blocks, making the product more flexible for marketers",
+        "Implemented HTML ↔ JSON conversion for advanced user workflows",
+        "Applied FSD-based architecture and SOLID principles, speeding up development and code maintenance"
+      ]
+    },
+    "csmoney": {
+      "position": "Frontend Developer",
+      "company": "Ex.corp (CS.Money)",
+      "period": "04/2020 – 06/2021",
+      "description": "Large marketplace for virtual gaming items. Focused on frontend development, UX improvements, and tech stack modernization.",
+      "achievements": [
+        "Developed a Storybook UI-kit, reducing code duplication and speeding up development by 50%",
+        "Optimized lists with virtualization (react-window) and infinite scrolling; improved rendering through memoization, increasing FPS and interface responsiveness",
+        "Migrated the project to React Hooks, simplifying code and lowering maintenance costs",
+        "Implemented lazy-loading and code-splitting, halving initial load time and boosting overall app performance"
+      ]
+    },
+    "covert": {
+      "position": "Frontend Developer",
+      "company": "The Covert",
+      "period": "03/2019 – 04/2020",
+      "description": "EdTech platform + crypto analytics interface. Worked on SPA development, integrations, and new product modules.",
+      "achievements": [
+        "Built a full-featured MVP in React/TypeScript in 2 months, including key user flows: authentication (Firebase Auth), lessons, tests, quizzes, and certification",
+        "Created a certificate printing service on Node.js with automated document generation",
+        "Developed a Watchlist module in React with filters and sorting, improving personalization and user engagement",
+        "Added multilingual support via i18next, enabling global accessibility and increasing conversion by 15%"
+      ]
+    }
+  },
+  "projectItems": {
+    "markeaze": {
+      "title": "Markeaze - Email Marketing Platform",
+      "description": "Product platform for email marketing with visual email template builder. Rebuilt the email builder using Web Components, achieving 100% performance stability. Fine-tuned and integrated Mistral AI for template generation, reducing email creation time by 60-70%."
+    },
+    "csmoney": {
+      "title": "CS.Money Marketplace",
+      "description": "Large marketplace for virtual gaming items. Developed a Storybook UI-kit, reducing code duplication and speeding up development by 50%. Optimized lists with virtualization and infinite scrolling, improved rendering through memoization."
+    },
+    "covert": {
+      "title": "The Covert - EdTech Platform",
+      "description": "EdTech platform + crypto analytics interface. Built a full-featured MVP in React/TypeScript in 2 months, including authentication, lessons, tests, quizzes, and certification. Added multilingual support via i18next."
+    }
+  }
+}
+
