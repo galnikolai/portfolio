@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageToggle from "./LanguageToggle";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navigation() {
   const { t } = useLanguage();
@@ -61,7 +62,7 @@ export default function Navigation() {
           </motion.a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             {navItems.map((item) => (
               <motion.a
                 key={item.name}
@@ -77,7 +78,10 @@ export default function Navigation() {
                 {item.name}
               </motion.a>
             ))}
-            <LanguageToggle />
+            <div className="flex items-center gap-3">
+              <ThemeToggle />
+              <LanguageToggle />
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
@@ -128,7 +132,8 @@ export default function Navigation() {
                   {item.name}
                 </a>
               ))}
-              <div className="pt-4">
+              <div className="pt-4 flex items-center gap-3">
+                <ThemeToggle />
                 <LanguageToggle />
               </div>
             </div>

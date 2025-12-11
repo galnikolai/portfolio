@@ -8,6 +8,7 @@ const skills = [
   "TypeScript",
   "React",
   "Redux Toolkit",
+  "Zustand",
   "Next.js",
   "SCSS",
   "Vite",

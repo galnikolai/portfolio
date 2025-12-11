@@ -8,7 +8,6 @@ import Projects from "@/components/Projects";
 import PersonalProjects from "@/components/PersonalProjects";
 import Contact from "@/components/Contact";
 import Navigation from "@/components/Navigation";
-import ThemeToggle from "@/components/ThemeToggle";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Home() {
@@ -47,7 +46,6 @@ export default function Home() {
       </Head>
       <main className="min-h-screen">
         <Navigation />
-        <ThemeToggle />
         <Hero />
         <About />
         <Experience />
