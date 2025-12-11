@@ -58,7 +58,21 @@
     "email": "Email",
     "message": "Message",
     "submit": "Send Message",
-    "success": "Thank you for your message! I'll get back to you soon."
+    "sending": "Sending...",
+    "success": "Thank you for your message! I'll get back to you soon.",
+    "error": "An error occurred while sending the message. Please try again later.",
+    "validation": {
+      "nameRequired": "Name is required",
+      "nameMin": "Name must be at least 2 characters long",
+      "nameMax": "Name must not exceed 100 characters",
+      "nameInvalid": "Name can only contain letters, spaces, hyphens, and apostrophes",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "emailMax": "Email must not exceed 255 characters",
+      "messageRequired": "Message is required",
+      "messageMin": "Message must be at least 10 characters long",
+      "messageMax": "Message must not exceed 2000 characters"
+    }
   },
   "experienceItems": {
     "markeaze": {

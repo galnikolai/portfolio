@@ -30,10 +30,7 @@ const skills = [
 export default function About() {
   const { t } = useLanguage();
   return (
-    <section
-      id="about"
-      className="py-20 bg-white dark:bg-gray-800"
-    >
+    <section id="about" className="py-20 bg-white dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2
           className="text-4xl md:text-5xl font-bold text-center text-gray-900 dark:text-white mb-12"
@@ -74,17 +71,17 @@ export default function About() {
             </h3>
             <div className="flex flex-wrap gap-3">
               {skills.map((skill, index) => (
-                <motion.span
+                <motion.div
                   key={skill}
-                  className="px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 text-gray-900 dark:text-white rounded-lg font-medium"
                   initial={{ opacity: 0, scale: 0 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
-                  whileHover={{ scale: 1.1 }}
                 >
-                  {skill}
-                </motion.span>
+                  <span className="inline-block px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 text-gray-900 dark:text-white rounded-lg font-medium cursor-default transition-transform duration-150 ease-out hover:scale-110 transform-gpu">
+                    {skill}
+                  </span>
+                </motion.div>
               ))}
             </div>
           </motion.div>
@@ -93,4 +90,3 @@ export default function About() {
     </section>
   );
 }
-
